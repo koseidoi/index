@@ -3,7 +3,7 @@ fetch("https://kosei.doi.mydns.jp/data.json")
 	return response.json()
 })
 .then(data => {
-	console.log(data)
+	console.log(data);
 	let elem = document.getElementById("data");
 	elem.innerHtml = data.name + ":" + data.title; 
 })
