@@ -7,6 +7,7 @@
   <title>KOSEI</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel='stylesheet' href='./static/style.css' type='text/css' media='all' />
 </head>
 <body>
   <header>
@@ -15,15 +16,14 @@
 
   <div class="content">
     <?php
-      if($_GET["scene"] == "home"){
-        include('./templates/home.php');
-      }
-      else if($_GET["scene"] == "comment"){
+      if($_GET["scene"] == "comment"){
         
         include('./templates/comment.php');
       }
       else if($_GET["scene"] == "qa"){
         include("./templates/qa.php");
+      }else{
+        include('./templates/home.php');
       }
 
     ?>
@@ -32,7 +32,7 @@
     <div class="navigation">
       <ul>
           <li class="list active" style="--clr:#f44336">
-              <a href="?scene=home">
+              <a href="/home/">
                   <span class="icon">
                       <ion-icon name="home-outline"></ion-icon>
                   </span>
