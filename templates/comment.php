@@ -40,7 +40,7 @@
     <div class="input-group mb-3" style="width:200px; padding: 10px;">
         <input type="text" class="form-control" placeholder="名前" aria-label="名前" aria-describedby="名前" name="name" id="name">
     </div>
-    <div class="input-group mb-3" style="padding:10px;padding-top:0px">
+    <div class="input-group mb-3" style="padding:10px;padding-top:0px;width:350px; ">
     <input type="text" class="form-control" placeholder="コメント内容" aria-label="コメント内容" aria-describedby="コメント内容" name="comment" id="comment">
     <button class="btn btn-outline-secondary" type="submit" id="submit">投稿</button>
     </div>

@@ -32,6 +32,7 @@ header{
 
 .content{
     margin-top: 60px;
+    max-width: 500px;
 }
 
 .img{
