@@ -1,6 +1,6 @@
-# website
-## introduced things
- - cool icon
- - sign in function
- - comment function
- - Q&A function
+# Website
+## What's been implemented
+ - Cool icons
+ - Sign-in feature
+ - Comment feature
+ - Q&A feature
